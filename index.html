@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professeur Universitaire IA</title>
+    <title>AI University Professor</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -161,7 +161,7 @@
 <body>
     <div class="chat-container">
         <div class="chat-header">
-            <h1>Professeur Universitaire IA</h1>
+            <h1>AI University Professor</h1>
         </div>
         <div id="chatbox"></div>
         <form id="messageForm">
@@ -193,7 +193,7 @@
             addMessage('user', messageText);
             userInput.value = '';
             sendButton.disabled = true;
-            addMessage('loading', 'Professeur réfléchit...');
+            addMessage('loading', 'Professor thinks...');
 
             try {
                 const response = await fetch(webhookUrl, {
